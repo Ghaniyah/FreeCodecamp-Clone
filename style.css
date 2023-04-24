@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-family:  "Lato",sans-serif;
 }
 /* Add a white background color to the top navigation bar */
 .topnav {
@@ -170,6 +171,7 @@ transform: translate(-50%, -50%);
     .topnav input[type=text] {
       border: 1px solid #030303;
     }
+  }
 /* styling p */
 .p {
   color: 1B1B32;
@@ -298,4 +300,32 @@ transform: translate(-50%, -50%);
 .big-heading{
 font-size: 2.5rem;
 overflow-wrap: break-word;
+}
+
+
+.parent-testimonial {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.text-testimonial {
+  padding: 30px;
+  background-color: #042743;
+  font-size: 20px;
+  color: #fff;
+}
+
+.header-text-testimonial {
+  font-size: 25px;
+}
+
+.img-testimonial {
+  text-align: center;
+}
+
+.center-text {
+  text-align: center;
 }
