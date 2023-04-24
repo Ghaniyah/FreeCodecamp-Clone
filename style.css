@@ -1,17 +1,24 @@
-/* Styling the webpage body */
-.body {
-  max-width: 500px;
-  margin: auto;
-  background: white;
-  padding: 10px;
-
+body{
+  margin: 0;
 }
 /* Add a white background color to the top navigation bar */
 .topnav {
     overflow: hidden;
     background-color: black;
+    margin: 0;
   }
+
+.leftMRS-20 {
+  background-color: gray;
+  color: antiquewhite;
+  width: max-content;
+  margin-left: 20px;
+}
   
+::placeholder {
+  color: whitesmoke;
+}
+
   /* Style the links inside the navigation bar */
   .topnav a {
     float: right;
@@ -48,25 +55,90 @@
   #SIGNIN{
     background-color: rgb(247, 146, 13);
     color:#080808;
-    border:solid darkgoldenrod;
+    border:solid black;
+    border-width: thin;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: rgb(241, 199, 10)
+
   }
 
   /* style the Menu button */
   #Menu{
-    border:solid antiquewhite;
+    border:solid black;
+    color: white;
+    border-width: thin;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: white;
+  
+
+  }
+.bigSty1 {
+font-weight: 700;
+font-family: Lato, sans-serif;
+font-size: 2.5rem;
+line-height: 1.1;
+text-align: center;
+
+}
+/* styling the freecodecamp icon */
+.central{
+text-align: center;
+object-position: 15% 100%;
+float: none;
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+  /* style the get started Button */
+.btn-1 {
+   background-image: linear-gradient( #fecc4c, #ffac33);
+   background-color: #feac32;
+   border:3px solid #feac32;
+   color: black;
+   vertical-align:middle;
+   text-align: center;
+   font-weight: normal;
+   width: auto;
+   height: 50px;
+   font-size: 1.3rem;
+   font-family: Hack-ZeroSlash,monospace;
+   padding-left: 70px;
+   padding-right: 70px;
+   box-sizing: border-box;
+  
+
   }
 
+/* styling the div for btn-1 */
+.gsif{
+  text-align: center;
 
-  /* style the lower button */
-.btn-1 {
-   color: linear-gradient(to right red, yellow);
 }
+.P1{
+  font-size: 1.25rem;
+  font-family:Lato,sans-serif ;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  line-height: 1.5rem;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+
+
 /* styling the body to be centralized */
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 /* style the image and caption */
@@ -98,29 +170,132 @@
     .topnav input[type=text] {
       border: 1px solid #030303;
     }
+/* styling p */
+.p {
+  color: 1B1B32;
+  font: Lato, sans-serif;
+  font-size: 22.5px;
+  margin: 10.8px 0px;
+  line-height: 1.5rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-block-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+  object-position: center;
+
+}
 
     /* styling the body of the web page */
-    .center {
+.center {
         max-width: 500px;
         margin: auto;
     }
 
-    .testimonial {
+.testimonial {
       -ms-flex: 1; /* IE 10 */
       flex: 1;
     }
-    .flex-container {
-      display: flex;
-      flex-wrap: wrap;
-    }
   
-    .flex-item-left {
+  
+.flex-item-left {
       flex: 50%;
     }
     
-    .flex-item-right {
+.flex-item-right {
       flex: 50%;
     }
+
+
+.root{
+      header-height: 38px;
+      search-box-form: 38px;
+      lang-menu-height: 22.5rem;
+
+    }
   
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100vh;
+    justify-content: space-around;
+    align-content: space-around;
+    font-family: Hack ZeroSlash, monospace;
+    font-size: 18px;
+    text-shadow: none;
+    text-size-adjust: 100%;
+    column-gap: 20px;
+
   }
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100vh;
+  justify-content: space-around;
+  align-content: space-around;
+  font-family: Hack ZeroSlash, monospace;
+  font-size: 18px;
+  text-shadow: none;
+  text-size-adjust: 100%;
+  column-gap: 20px;
+}
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100vh;
+  justify-content: space-around;
+  align-content: space-around;
+  font-family: Hack ZeroSlash, monospace;
+  font-size: 18px;
+  text-shadow: none;
+  text-size-adjust: 100%; 
+  column-gap: 20px;
+}
+.testimonial-header{
+  width: max-content;
+  margin: 20px;
+  border: 10px;
+  flex-grow: 1;
+}
+
+
+.testimonial-footer{
+  width: max-content;
+  margin: 20px;
+  border: 10px;
   
+
+}
+  
+
+.testimonial-meta{
+  width: max-content;
+  margin: 20px;
+  border: 10px;
+  flex-grow: 10; 
+}
+
+.testimony{
+    font-family: Hack ZeroSlash, monospace;
+    font-size: 18px;
+    justify-content: space-around;
+    text-shadow: none;
+    text-size-adjust: 100%;
+}
+
+.big-heading{
+font-size: 2.5rem;
+overflow-wrap: break-word;
+}

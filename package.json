@@ -1,0 +1,23 @@
+{
+  "name": "web-cloning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghaniyah/FreeCodecamp-Clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghaniyah/FreeCodecamp-Clone/issues"
+  },
+  "homepage": "https://github.com/Ghaniyah/FreeCodecamp-Clone#readme",
+  "dependencies": {
+    "live-server": "^1.1.0",
+    "lodash": "^4.17.21"
+  }
+}
