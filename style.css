@@ -1,6 +1,9 @@
 body{
   margin: 0;
   font-family:  "Lato",sans-serif;
+  /* background-color: #0a0a23; */
+  background-color: #1b1b32;
+  color: #fff;
 }
 /* Add a white background color to the top navigation bar */
 .topnav {
@@ -80,7 +83,7 @@ font-weight: 700;
 font-family: Lato, sans-serif;
 font-size: 2.5rem;
 line-height: 1.1;
-text-align: center;
+/* text-align: center; */
 
 }
 /* styling the freecodecamp icon */
@@ -110,8 +113,8 @@ transform: translate(-50%, -50%);
    padding-left: 70px;
    padding-right: 70px;
    box-sizing: border-box;
-  
-
+   margin-top: 20px;
+   margin-bottom: 30px;
   }
 
 /* styling the div for btn-1 */
@@ -314,9 +317,10 @@ overflow-wrap: break-word;
 
 .text-testimonial {
   padding: 30px;
-  background-color: #042743;
+  background-color: #0a0a23;
   font-size: 20px;
   color: #fff;
+  line-height: 1.5;
 }
 
 .header-text-testimonial {
@@ -329,4 +333,11 @@ overflow-wrap: break-word;
 
 .center-text {
   text-align: center;
+}
+
+.beginner-header {
+  text-align: left;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
 }
