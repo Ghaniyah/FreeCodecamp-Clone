@@ -307,6 +307,7 @@ overflow-wrap: break-word;
   display: flex;
   text-align: center;
   justify-content: center;
+  margin-top: 40px;
   margin-left: 120px;
   margin-right: 120px;
 }
