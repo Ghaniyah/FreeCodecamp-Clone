@@ -345,16 +345,140 @@ margin-top: 150px;
 }
 
 .container{
-    display: flex; /* or inline-flex */
+  display: flex; /* or inline-flex */
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   align-content: center;
-  column-gap: 30px;
+  column-gap: 100px;
+  box-sizing: border-box;
+  height: 100vh;
+  border-color:white ;
+  margin-top: 40px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 40px;
 }
 
-.item{
+.box1{
+background-color: #bebdb8;
+border: #080808;
+border-radius: 2px;
 flex-basis: auto;
+margin-bottom: 20px;
+border-style: double;
+scroll-behavior: auto;
 
+}
+
+.box2{
+  background-color: #bebdb8;
+  border: #080808;
+  border-radius: 2px;
+  flex-basis: auto;
+  margin-bottom: 20px;
+  border-style: double;
+  scroll-behavior: auto;
+}
+
+.box3{
+  background-color: #bebdb8;
+  border: #080808;
+  border-radius: 2px;
+  flex-basis: auto;
+  margin-bottom: 20px;
+  border-style: double;
+  scroll-behavior: auto;
+  
+}
+
+.box4{
+  background-color: #bebdb8;
+  border: #080808;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  flex-basis: auto;
+  border-style: double;
+  scroll-behavior: auto;
+}
+
+.box5{
+  background-color: #bebdb8;
+  border: #080808;
+  border-radius: 2px;
+  flex-basis: auto;
+  margin-bottom: 20px;
+  border-style: double;
+  scroll-behavior: auto;
+}
+
+.box6{
+  background-color: #bebdb8;
+  border: #080808;
+  border-radius: 2px;
+  flex-basis: auto;
+  margin-bottom: 20px;
+  border-style: double;
+  scroll-behavior: auto;
+}
+
+.box7{
+  background-color: #bebdb8;
+  border: #080808;
+  border-radius: 2px;
+  flex-basis: auto;
+  margin-bottom: 20px;
+  border-style: double;
+  scroll-behavior: auto;
+}
+
+.box8{
+  background-color: #bebdb8;
+  border: #080808;
+  border-radius: 2px;
+  flex-basis: auto;
+  margin-bottom: 20px;
+  border-style: double;
+  scroll-behavior: auto;
+}
+
+.box9{
+  background-color: #bebdb8;
+  border: #080808;
+  border-radius: 2px;
+  flex-basis: auto;
+  margin-bottom: 20px;
+  border-style: double;
+  scroll-behavior: auto;
+}
+
+.box10{
+  background-color: #bebdb8;
+  border: #080808;
+  border-radius: 2px;
+  flex-basis: auto;
+  margin-bottom: 20px;
+  border-style: double;
+  scroll-behavior: auto;
+}
+
+.box11{
+  background-color: #bebdb8;
+  border: #080808;
+  border-radius: 2px;
+  flex-basis: auto;
+  margin-bottom: 20px;
+  border-style: double;
+  scroll-behavior: auto;
+}
+
+.box12{
+  background-color: #bebdb8;
+  border: #080808;
+  border-radius: 2px;
+  flex-basis: auto;
+  margin-bottom: 20px;
+  border-style: double;
+  scroll-behavior: auto;
 }
