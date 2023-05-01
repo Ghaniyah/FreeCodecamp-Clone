@@ -353,132 +353,38 @@ margin-top: 150px;
   align-content: center;
   column-gap: 100px;
   box-sizing: border-box;
-  height: 100vh;
-  border-color:white ;
+  flex-wrap: nowrap;
   margin-top: 40px;
   margin-left: 120px;
   margin-right: 120px;
-  margin-bottom: 40px;
 }
 
-.box1{
-background-color: #bebdb8;
-border: #080808;
+.box{
+width: 700px;
+font-size: 1rem;
+background-color: #3b3b4f;
+border: solid white;
 border-radius: 2px;
-flex-basis: auto;
 margin-bottom: 20px;
-border-style: double;
-scroll-behavior: auto;
+text-align: left;
+padding:15px;
+color: white;
+font-size: 20px;
 
 }
 
-.box2{
-  background-color: #bebdb8;
-  border: #080808;
-  border-radius: 2px;
-  flex-basis: auto;
-  margin-bottom: 20px;
-  border-style: double;
-  scroll-behavior: auto;
+.icon{
+  font-size: 40px;
+  margin-right: 15px;
 }
 
-.box3{
-  background-color: #bebdb8;
-  border: #080808;
-  border-radius: 2px;
-  flex-basis: auto;
-  margin-bottom: 20px;
-  border-style: double;
-  scroll-behavior: auto;
-  
+.box:hover{
+  background-color: white;
+  color: #3b3b4f;
 }
 
-.box4{
-  background-color: #bebdb8;
-  border: #080808;
-  border-radius: 2px;
-  margin-bottom: 20px;
-  flex-basis: auto;
-  border-style: double;
-  scroll-behavior: auto;
-}
-
-.box5{
-  background-color: #bebdb8;
-  border: #080808;
-  border-radius: 2px;
-  flex-basis: auto;
-  margin-bottom: 20px;
-  border-style: double;
-  scroll-behavior: auto;
-}
-
-.box6{
-  background-color: #bebdb8;
-  border: #080808;
-  border-radius: 2px;
-  flex-basis: auto;
-  margin-bottom: 20px;
-  border-style: double;
-  scroll-behavior: auto;
-}
-
-.box7{
-  background-color: #bebdb8;
-  border: #080808;
-  border-radius: 2px;
-  flex-basis: auto;
-  margin-bottom: 20px;
-  border-style: double;
-  scroll-behavior: auto;
-}
-
-.box8{
-  background-color: #bebdb8;
-  border: #080808;
-  border-radius: 2px;
-  flex-basis: auto;
-  margin-bottom: 20px;
-  border-style: double;
-  scroll-behavior: auto;
-}
-
-.box9{
-  background-color: #bebdb8;
-  border: #080808;
-  border-radius: 2px;
-  flex-basis: auto;
-  margin-bottom: 20px;
-  border-style: double;
-  scroll-behavior: auto;
-}
-
-.box10{
-  background-color: #bebdb8;
-  border: #080808;
-  border-radius: 2px;
-  flex-basis: auto;
-  margin-bottom: 20px;
-  border-style: double;
-  scroll-behavior: auto;
-}
-
-.box11{
-  background-color: #bebdb8;
-  border: #080808;
-  border-radius: 2px;
-  flex-basis: auto;
-  margin-bottom: 20px;
-  border-style: double;
-  scroll-behavior: auto;
-}
-
-.box12{
-  background-color: #bebdb8;
-  border: #080808;
-  border-radius: 2px;
-  flex-basis: auto;
-  margin-bottom: 20px;
-  border-style: double;
-  scroll-behavior: auto;
+.arrow{
+  margin-left: 200px;
+  font-size: 30px;
+  text-align: right;
 }
