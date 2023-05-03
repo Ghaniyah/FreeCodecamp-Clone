@@ -359,6 +359,7 @@ margin-top: 150px;
   margin-right: 120px;
 }
 
+
 .box{
   width: 700px;
   font-size: 1rem;
@@ -395,3 +396,25 @@ margin-top: 150px;
   flex-direction: row;
   align-items: center;
 } */
+
+.footer {
+  display: block;
+  text-align: center;
+  padding: 3px;
+  background-color: #4f4f58; 
+  color: black;
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.p1{
+  flex-basis: auto;
+  justify-items: auto;
+  justify-content: baseline;
+}
