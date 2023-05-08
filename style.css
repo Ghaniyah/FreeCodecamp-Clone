@@ -417,4 +417,16 @@ margin-top: 150px;
   flex-basis: auto;
   justify-items: auto;
   justify-content: baseline;
+  flex-grow: 2;
+  margin: 10px;
+  "align-self: flex-start"
+}
+
+.FAQ{
+  text-align: left;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 40px 15px;
+  display:block;
+
 }
