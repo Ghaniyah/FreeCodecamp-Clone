@@ -91,9 +91,9 @@ line-height: 1.1;
 text-align: center;
 object-position: 15% 100%;
 float: none;
-position: absolute;
+/* position: absolute; */
 top: 100%;
-left: 50%;
+left: 80%;
 transform: translate(-50%, -50%);
 }
 
@@ -429,6 +429,7 @@ margin-top: 150px;
   grid-column-end: 5;
   text-align: left;
   column-count: 3;
+  column-gap: 20px;
 
 }
 
