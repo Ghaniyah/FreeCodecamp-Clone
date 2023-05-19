@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax 1 course</title>
+</head>
+<body>
+    <button id="button"> Get Text file </button>
+    <div id="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores accusantium quaerat iusto cumque dolor doloribus veniam fugiat? Beatae veritatis cumque hic, exercitationem, asperiores laudantium quasi quaerat esse, eligendi rem impedit?</div>
+
+    <script>
+    // Add Event listener
+      document.getElementById('button').addEventListener('click', loadText);
+
+      function loadText(){
+        // create XHR object
+        var xhr = new XMLHttpRequest();
+        // OPEN . type, url/file, async
+        xhr.open('Get', 'sample.txt', true);
+
+         xhr.onload = function(){
+             if(this.status == 200){
+                // console.log(this.responseText);
+                   document.getElementById('text').innerHTML = this.responseText;
+             }
+             else if(this.status == 404){ document.getElementById('text').innerHTML = 'Not Found';
+
+             }
+         }
+
+        // xhr.onreadystatechange = function(){
+            // if(this.readyState == 4 && this.staus == 200){
+                // console.log(this.responseText);
+            // }
+        // }
+        // sends request
+        xhr.send();
+
+    
+
+      }
+
+    </script>
+</body>
+</html>

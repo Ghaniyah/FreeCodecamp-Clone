@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meal DB API</title>
+
+    <style>
+        .meals{
+          display: flex;
+          background: gainsboro;
+          padding: 10px;
+          margin-bottom: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <button id="button">seafood meals </button>
+
+    <br> <br>
+
+    <h1> sea food available </h1>
+    <div id="seafood"></div>
+
+
+    <script>
+        document.getElementById('button').addEventListener('click', loadMeals);
+
+ // Load sea food meals
+     function loadMeals(){
+       var xhr = new XMLHttpRequest();
+       xhr.open('GET', 'https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood', true);
+
+       xhr.onload = function(){
+        if(this.status == 200){
+            var meals = JSON.parse(this.responseText);
+
+          var output ='';
+           for (var i in meals){
+               output =+
+               '<div class="meals">' +
+                '<img src="'+meals[i].strMealThumb+'" width="70" height="70">'+
+                '<ul>'+
+                '<li>ID: '+meals[i].idMeal+' </li>' +
+                '<li>Meal: '+meals[i].strMeal+' </li>' +
+                '</ul>'+
+                '</div>';
+
+
+           }
+
+           document.getElementById('meals').innerHTML = output
+        }
+
+       }
+
+        xhr.send();
+
+     }
+    </script>
+
+    
+</body>
+</html>
