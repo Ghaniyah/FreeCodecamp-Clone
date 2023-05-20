@@ -27,7 +27,7 @@
     <br> <br>
 
     <h1> sea food available </h1>
-    <div id="seafood"></div>
+    <div id="meals"></div>
 
 
     <script>
@@ -41,10 +41,11 @@
        xhr.onload = function(){
         if(this.status == 200){
             var meals = JSON.parse(this.responseText);
+            meals = meals.meals
 
           var output ='';
            for (var i in meals){
-               output =+
+               output +=
                '<div class="meals">' +
                 '<img src="'+meals[i].strMealThumb+'" width="70" height="70">'+
                 '<ul>'+
