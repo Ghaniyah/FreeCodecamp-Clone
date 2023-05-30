@@ -37,16 +37,11 @@
  // Load sea food meals
      function loadMeals(){
        var xhr = new XMLHttpRequest();
-    //    xhr.open('GET', 'https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood', true);
-
-       xhr.open( 'POST', 'https://translation.googleapis.com/language/translate/v2?q=move&target=ar&key=AjxWpakU7WI0f0D3s5HusG_b4OvV8', true);
-
+       xhr.open('GET', 'https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood', true);
 
        xhr.onload = function(){
         if(this.status == 200){
             var meals = JSON.parse(this.responseText);
-            console.log(meals);
-
             meals = meals.meals
 
           var output ='';
