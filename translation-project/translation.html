@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="translation.css">
+    <script src="translation.js"></script>
+</head>
+
+<body>
+    <h1 class="text-center">Translation API</h1>
+
+    <div class="container">
+        <div class="translation-container">
+            <div>
+                <label for="translation-text">Text to translate</label>
+                <input class="input-style" id="translation-text" placeholder="Enter text"></input>
+            </div>
+    
+            <div>
+                <label for="select-lang">Select a language</label>
+                <select class="input-style" id="select-lang" placeholder="Select language">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="mx">Mexican</option>
+                    <option value="ar">Arabic</option>
+                    <option value="de">German</option>
+                </select>
+            </div>
+    
+            <div>
+                <button class="btn" onclick="getTranslationFromAPI()">Translate</button>
+            </div>
+        </div>
+
+        <div class="translation-result">
+            <textarea id="trans-result" placeholder="Your results will show here"></textarea>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
