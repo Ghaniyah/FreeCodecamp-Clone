@@ -1,4 +1,4 @@
-const key = ''
+const key = 'AIzaSyCLlgZjxWpakU7WI0f0D3s5HusG_b4OvV8'
 
 async function getTranslation(text, language) {
     let result = await fetch(`https://translation.googleapis.com/language/translate/v2?q=${text}&target=${language}&key=${key}`)
